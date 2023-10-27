@@ -2,7 +2,7 @@ public class MutablePerson {
     private String name;
     private int age;
 
-    public MutablePerson(String name, int age) {
+  /*  public MutablePerson(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -21,7 +21,7 @@ public class MutablePerson {
 
     public void setAge(int age) {
         this.age = age;
-    }
+    }*/
 }
 
 

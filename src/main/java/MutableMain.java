@@ -1,6 +1,6 @@
 public class MutableMain {
 
-        public static void main(String[] args) {
+      /*  public static void main(String[] args) {
             MutablePerson mperson = new MutablePerson("Alice", 30);
             System.out.println(mperson.getName());
             System.out.println(mperson.getAge());
@@ -9,5 +9,5 @@ public class MutableMain {
             mperson.setAge(25);
             System.out.println(mperson.getName());
             System.out.println(mperson.getAge());
-        }
+        }*/
 }

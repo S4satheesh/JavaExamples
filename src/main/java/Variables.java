@@ -2,7 +2,7 @@ public class Variables {
 
     int age = 28;
     String name ="Radha";
-    public void add()
+   /* public void add()
     {
         System.out.println("Emp name is.." + name);
         //System.out.println("Emp page is.."+ age);
@@ -15,5 +15,5 @@ public class Variables {
         //System.out.println(va.name);
         //System.out.println(va.age);
         va.add();
-    }
+    }*/
 }
