@@ -1,4 +1,4 @@
-public class demoOnArray {
+public class DemoOnArray {
 
 
     public static void main(String[] array)
