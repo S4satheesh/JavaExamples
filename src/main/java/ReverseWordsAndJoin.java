@@ -2,13 +2,13 @@
 import java.util.*;
 
 
-public class ReverseWords {
+public class ReverseWordsAndJoin {
 
     public static void main(String[] args) {
-        String str = "..geeks..for.geeks";
+        String str = "geeks-for";
 
         List<String> words = new ArrayList<String>();
-        String[] parts = str.split("\\.");
+        String[] parts = str.split("-");
 
         for(String word : parts)
         {
@@ -17,13 +17,8 @@ public class ReverseWords {
                 words.add(word);
             }
         }
-
         Collections.reverse(words);
         System.out.println(words);
-        System.out.println(String.join(".", words));
-
-
-
+        System.out.println(String.join("-", words));
     }
-
 }
